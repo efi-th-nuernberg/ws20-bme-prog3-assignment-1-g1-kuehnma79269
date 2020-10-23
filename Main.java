@@ -9,8 +9,8 @@ class Main {
       if (i % 5 == 0 && i != 0) {
         System.out.println(i + " ist durch 5 teilbar");
       } 
-      if ((i-9)%10) == 0 && i != 0) {
-        System.out.println("Zahl endet auf 9");
+      if (((i-9)%10) == 0 && i != 0) {
+        System.out.println(i + " endet auf 9");
       }
       if (((i + (i-1)) % 3) == 0 && i != 0) {
         System.out.println( i + " und " + (i-1) + " addiert ergeben " + (i+(i-1)) + " und " + (i+(i-1)) + " ist durch 3 teilbar" );
